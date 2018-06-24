@@ -3,15 +3,13 @@ import setuptools
 
 setuptools.setup(
     name='alphanym',
-    version='1.0.1',
+    version='1.0.2',
     description='Official Alphanym Python Client',
     long_description='Official Alphanym Python Client',
     author='Drew French',
     author_email='french@alphanym.com',
     url='https://www.alphanym.com',
-    py_modules=[
-        'alphanym',
-    ],
+    packages=setuptools.find_packages(),
     install_requires=[
         'requests',
     ],
